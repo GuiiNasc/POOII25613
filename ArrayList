@@ -1,0 +1,17 @@
+    ArrayList<String> Moeda = new ArrayList();
+    
+    Moeda.add("XXX");
+		Moeda.add("YER");
+		Moeda.add("ZAR");
+		Moeda.add("ZMW");
+		Moeda.add("ZWL");
+		
+		
+		for (int i = 0; i < Moeda.size() ;i++){
+			System.out.println(Moeda.get(i));
+		}
+		
+		System.out.println("Moeda " + Moeda.get(Moeda.indexOf("XBD")) +" esta na posicao: " + Moeda.indexOf("XBD"));
+		
+		System.out.println(Moeda.get(180));
+		Moeda.remove(180);
